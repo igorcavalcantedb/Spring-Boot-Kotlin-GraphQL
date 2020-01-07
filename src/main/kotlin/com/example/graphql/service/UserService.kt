@@ -11,5 +11,9 @@ class UserService @Autowired constructor(private val userRepository: UserReposit
     fun findAll(): MutableIterable<User> {
         return userRepository.findAll()
     }
+
+    fun create(user: User): User {
+       return userRepository.save(user)
+    }
 }
 
