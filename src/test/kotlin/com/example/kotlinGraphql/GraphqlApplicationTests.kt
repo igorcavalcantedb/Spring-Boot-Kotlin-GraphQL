@@ -1,4 +1,4 @@
-package com.example.graphql
+package com.example.kotlinGraphql
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

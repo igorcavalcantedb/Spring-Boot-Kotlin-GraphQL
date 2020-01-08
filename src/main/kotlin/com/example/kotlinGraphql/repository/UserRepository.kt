@@ -1,6 +1,6 @@
-package com.example.graphql.repository
+package com.example.kotlinGraphql.repository
 
-import com.example.graphql.entity.User
+import com.example.kotlinGraphql.entity.User
 import org.springframework.data.repository.CrudRepository
 import org.springframework.stereotype.Repository
 

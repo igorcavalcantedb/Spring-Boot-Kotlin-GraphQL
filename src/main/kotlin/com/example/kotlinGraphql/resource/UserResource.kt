@@ -1,7 +1,7 @@
-package com.example.graphql.resource
+package com.example.kotlinGraphql.resource
 
-import com.example.graphql.entity.User
-import com.example.graphql.service.UserService
+import com.example.kotlinGraphql.entity.User
+import com.example.kotlinGraphql.service.UserService
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.http.HttpStatus
 import org.springframework.web.bind.annotation.*
@@ -15,8 +15,8 @@ class UserResource @Autowired constructor(private  val userService: UserService)
     }
     @PostMapping
     @ResponseStatus(value = HttpStatus.CREATED)
-    fun create(@RequestBody user: User): Unit {
-        userService.create(user)
+    fun create(@RequestBody user: User): User {
+        return userService.create(user)
     }
 
 }

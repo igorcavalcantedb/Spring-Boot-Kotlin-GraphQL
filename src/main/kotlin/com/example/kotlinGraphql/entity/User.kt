@@ -1,4 +1,4 @@
-package com.example.graphql.entity
+package com.example.kotlinGraphql.entity
 
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue

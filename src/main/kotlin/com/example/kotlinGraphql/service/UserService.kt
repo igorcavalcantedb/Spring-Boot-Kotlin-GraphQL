@@ -1,7 +1,7 @@
-package com.example.graphql.service
+package com.example.kotlinGraphql.service
 
-import com.example.graphql.entity.User
-import com.example.graphql.repository.UserRepository
+import com.example.kotlinGraphql.entity.User
+import com.example.kotlinGraphql.repository.UserRepository
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 

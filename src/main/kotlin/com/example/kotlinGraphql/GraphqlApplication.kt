@@ -1,4 +1,4 @@
-package com.example.graphql
+package com.example.kotlinGraphql
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
